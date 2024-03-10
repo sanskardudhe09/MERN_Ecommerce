@@ -1,0 +1,132 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap');
+
+/*font-family: 'Poppins', sans-serif;*/
+/* font-family: 'Playfair Display', serif; */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+/*styling for navbar*/
+.navbar{
+    font-size: 20px;
+    line-height: 30px;
+    border-bottom: 0.2px outset gray;
+    background-color: rgba(42, 192, 242, 0.5)
+}
+.nav-link{
+    font-weight: 500;
+}
+.navbar-brand {
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-transform: capitalize !important;
+}
+/* Styling for footer*/
+.footer{
+    color: white;
+    padding-top: 20px;
+    background-color: rgb(49, 48, 48);
+    height: 15vh;
+}
+.footer a{
+    text-decoration: none;
+    padding: 10px;
+    color: floralwhite;
+}
+.footer a:hover{
+    color: yellowgreen;
+}
+ /*styling for about page */
+
+ .aboutpage{
+    
+    height: 800px;
+ }
+ .aboutimg{
+    padding-left: 20px;
+    width: 1000px;
+    height: 90%;
+ }
+ 
+ .aboutcnt{
+    padding: 130px 55px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+    font-weight: 600;
+ }
+ .cnthead{
+    letter-spacing: 4px;
+    font-weight:800;
+ }
+ /* styling for contact page */
+ .contactpage{
+   background-image: linear-gradient(rgb(247, 162, 162), white);
+ }
+ .contactimg{
+    height: 50%;
+    width: 100%;
+ }
+ .contactform{
+    margin:auto;
+    width: 900px;
+    border: 0.52px solid rgb(131, 123, 123);
+    border-radius: 4px;
+ }
+ .policypage{
+    padding: 50px;
+    background-image: url('../public/images/policyback.jpg');
+ }
+ .policyimg {
+    width: 60%;
+    height: 700px;
+ }
+ 
+ .listcontainer{
+   background-image: linear-gradient(to bottom right,  rgb(168, 168, 250), white);
+    margin-left: 115px;
+    border: 1px solid gray;
+ }
+ .listitem{
+    font-size:large;
+    letter-spacing: 1px;
+ }
+ .policyicon{
+   height: 80px;
+   margin-left: 145px;
+ }
+ .pagenotfound{
+   height: 800px;
+   font-family: 'Poppins', sans-serif;
+ }
+ .heading{
+   padding-top: 130px;
+   font-size: 150px;
+ }
+ .notfoundbtn{
+   margin-left: 850px;
+   width: 150px;
+   height: 60px;
+   background-color: black;
+   color: whitesmoke;
+ }
+
+ .ant-checkbox{
+   margin-bottom: 20px;
+ }
+
+ .filterback{
+   background-color: rgb(184, 184, 238);
+ }
+ .card img:hover{
+   transform: scale(0.9);
+ }
+ .category-card{
+   width: 400px;
+   background-image: linear-gradient(to bottom right, rgb(239, 107, 122), rgb(241, 168, 249));
+ }
+ 

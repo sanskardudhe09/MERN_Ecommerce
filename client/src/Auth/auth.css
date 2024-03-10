@@ -1,0 +1,60 @@
+
+.authform{
+    margin-left: 550px;
+    padding: 50px;
+    border: 1px solid gray;
+    background-image: linear-gradient(to bottom right, rgb(242, 242, 142),rgb(252, 159, 159));
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+    height: 73vh;
+}
+.profile-authform{
+    margin-left: 150px;
+    padding: 50px;
+    border: 1px solid gray;
+    background-image: linear-gradient(to bottom right, rgb(242, 242, 142),rgb(252, 159, 159));
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+    height: 66vh;
+}
+.form-label{
+    float: inline-start;
+    font-size:large;
+    font-weight: 500;
+}
+.form-control{
+    border-color: aqua;
+    border-width: 2px;
+}
+.loginform{
+    margin-top: 50px;
+    margin-left: 580px;
+    padding: 50px;
+    border: 1px solid gray;
+    background-image: linear-gradient(to bottom right, rgb(242, 242, 142),rgb(252, 159, 159));
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 42vh;
+}
+.resetform{
+    margin-top: 50px;
+    margin-left: 580px;
+    padding: 50px;
+    border: 1px solid gray;
+    background-image: linear-gradient(to bottom right, rgb(242, 242, 142),rgb(252, 159, 159));
+    border-radius: 4px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    height: 50vh;
+}
