@@ -13,6 +13,7 @@
   .products {
     display: flex;
     justify-content: space-evenly;
+    width: 20rem;
   }
 }
 /*styling for navbar*/
